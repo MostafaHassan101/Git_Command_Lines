@@ -20,5 +20,8 @@ git add -A stages all changes
 git add . stages new files and modifications, without deletions (on the current directory and its subdirectories).
 
 git add -u stages modifications and deletions, without new files
+
+https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add?rq=1
+
 ----------------------------------------------------------------------------------------------
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
