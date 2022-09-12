@@ -24,4 +24,12 @@ git add -u stages modifications and deletions, without new files
 https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add?rq=1
 
 ----------------------------------------------------------------------------------------------
+Delete the most recent commit, destroying the work you've done:
+
+git reset --hard HEAD~1
+-------------------------------------------------------------------
+git push -f origin HEAD^:master
+That should "undo" the push
+-------------------------------------------------------------------------------------------------
+
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
